@@ -1,0 +1,83 @@
+body{
+ background-color: #fffd94;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pedir{
+    font-size: 25px;
+}
+header{
+    min-height: 70px;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(187, 182, 255);
+    align-items: center;
+    padding: 10px;
+}
+.p-centrado{
+    text-align: center;
+}
+.centrar-div{
+    margin: 0 200px;
+
+}
+.boton{
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+}
+.boton:hover{
+    background-color: blue;
+    color: white;
+}
+
+form{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-weight: 900;
+font-size: 20px;
+margin-left: 15px;
+}
+
+.cajatxt{
+    padding: 10px;
+}
+.logo{
+    display: flex;
+  align-items: center;
+}
+.impulso{
+ 
+    height: 140px;
+}
+
+
+
+.fibonacci{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+}
+
+nav a{
+    padding-right: 5px;
+    font-weight: 600;
+    margin-right: 20px;}
+
+nav a:hover{
+    color: rgb(0, 17, 255);
+}
+
+@media (max-width:700px){
+
+    header{
+        flex-direction: column;
+    }
+    
+}
